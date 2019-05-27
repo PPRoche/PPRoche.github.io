@@ -3,14 +3,26 @@ a:hover{
 	background-color: green;
 }
 
-/*HEADER SECTION*/
-.b-color{
-  background-color: lightgrey;
+ul {
+	line-height: 30px;
 }
 
+/*BODY SECTION*/
+.b-color{
+  background-color: lightgrey;
+  line-height: 40px;
+}
+
+/*HEADER SECTION*/
+.header{
+	text-align: center;
+	line-height: 10px;
+
+}
 /*MAIN BODY AND SIDE SECTION*/
 .section-main{
 	background-color: aliceblue;
-	font-family: cursive;
-	width: 100%
+	/*font-family: cursive;*/
+	width: 100%;
+	line-height: 40px;
 }
