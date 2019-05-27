@@ -2,3 +2,15 @@
 a:hover{
 	background-color: green;
 }
+
+/*HEADER SECTION*/
+.b-color{
+  background-color: lightgrey;
+}
+
+/*MAIN BODY AND SIDE SECTION*/
+.section-main{
+	background-color: aliceblue;
+	font-family: cursive;
+	width: 100%
+}
