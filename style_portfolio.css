@@ -24,5 +24,13 @@ ul {
 	background-color: aliceblue;
 	/*font-family: cursive;*/
 	width: 100%;
-	line-height: 40px;
+	line-height: 25px;
+	padding-left: 10px;
+	padding-top: 1px;
+}
+
+/*DATES AND LOCATION*/
+.date-loc{
+	letter-spacing: 0.7px;
+	text-transform: capitalize;
 }
