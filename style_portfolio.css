@@ -4,9 +4,12 @@ a:hover{
 }
 
 ul {
-	line-height: 30px;
+	line-height: 20px;
 }
 
+li {
+	padding-bottom: 3px;
+}
 /*BODY SECTION*/
 .b-color{
   background-color: lightgrey;
@@ -16,21 +19,23 @@ ul {
 /*HEADER SECTION*/
 .header{
 	text-align: center;
-	line-height: 10px;
+	line-height: 8px;
 
 }
 /*MAIN BODY AND SIDE SECTION*/
 .section-main{
 	background-color: aliceblue;
 	/*font-family: cursive;*/
-	width: 100%;
+	width: 99%;
 	line-height: 25px;
 	padding-left: 10px;
 	padding-top: 1px;
+
 }
 
 /*DATES AND LOCATION*/
 .date-loc{
 	letter-spacing: 0.7px;
+	line-height: 5px;
 	text-transform: capitalize;
 }
