@@ -1,5 +1,4 @@
 /*css stylesheet*/
-
 /*- - - - DEFAULT ELEMENT RULES - - - -*/
 
 a:hover{
@@ -40,6 +39,16 @@ li {
 
 }
 
+/*MAIN SECTION FOR BIO AND INDEX PAGE*/
+.spec-main{
+	background-color: aliceblue;
+	/*font-family: cursive;*/
+	width: 99%;
+	line-height: 25px;
+	padding-left: 10px;
+	padding-top: 1px;
+}
+
 /*DATES AND LOCATION*/
 .date-loc{
 	letter-spacing: 0.7px;
@@ -54,10 +63,19 @@ li {
 	and (min-width: 700px) 
 	and (max-width: 1200px)
 	and (-webkit-min-device-pixel-ratio: 1){
-	.b-color{
-		/*background:url("../responsive/software.png") 0 0px;*/
-		width: 100%;
+	.spec-main{
+		width: 99%;
 		background-color: lightyellow;
+	}	
+}
+
+@media screen 
+	and (min-width: 300px) 
+	and (max-width: 700px)
+	and (-webkit-min-device-pixel-ratio: 1){
+	.spec-main{
+		width: 50%;
+		background-color: lightgreen;
 	}	
 }
 
@@ -66,12 +84,10 @@ li {
 	and (min-device-width: 375px)
 	and (max-device-width: 667px)
 	and (-webkit-min-device-pixel-ratio: 2){
-	.b-color{
-		/*background:url("../responsive/software.png") 0 0px;*/
+	.spec-main{
 		width: 50%;
 		background-color: lightgreen;
 	}
-
 }
 
 
