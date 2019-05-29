@@ -5,6 +5,9 @@ a:hover{
 	background-color: green;
 }
 
+a{
+	color: #890101;
+}
 ul {
 	line-height: 20px;
 }
@@ -61,6 +64,15 @@ li {
 	font-size: 14px;
 	padding: 6px;
 }
+
+.container{
+	width: 330px;
+	height: 345px;
+}
+.container img{
+	width: 100%;
+	height: auto;
+}
 /*- - - - - MEDIA QUERIES - - - - -*/
 
 /*Non-retinal browser screen*/
@@ -93,13 +105,6 @@ li {
 	}
 }
 
-
-
-
-
-
-
-
 /*For Portrait and Landscape iPhone 6, 6S, 7 and 8 */
 @media only screen
 	and (min-device-width: 375px)
@@ -112,7 +117,8 @@ li {
 
 
 	div#p-roche{
-		
+		width: 50%;
+		height: auto;
 	}
 }
 
