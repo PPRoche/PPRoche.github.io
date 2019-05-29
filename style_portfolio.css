@@ -51,6 +51,7 @@ li {
 	line-height: 25px;
 	padding-left: 10px;
 	padding-top: 1px;
+	float: left;
 }
 
 /*SIDE SECTION FOR BIO AND INDEX PAGE*/
@@ -60,6 +61,7 @@ li {
 	line-height: 25px;
 	padding-left: 10px;
 	padding-top: 1px;
+	float: left;
 }
 
 /*DATES AND LOCATION*/
