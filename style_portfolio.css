@@ -1,16 +1,10 @@
 /*css stylesheet*/
 /*- - - - DEFAULT ELEMENT RULES - - - -*/
 
-a:hover{
-	background-color: green;
-}
+a:hover{ background-color: green;}
 
-a{
-	color: #890101; /*maroon*/
-}
-ul {
-	line-height: 20px;
-}
+a{color: #890101; /*maroon*/}
+ul {line-height: 20px;}
 
 li {
 	background-color: #c7aed4; /*lightpurple*/
@@ -78,14 +72,11 @@ li {
 	padding: 6px;
 }
 
-.container{
-	width: 330px;
-	height: 345px;
-}
-.container img{
-	width: 80%;
-	height: auto;
-}
+.container{	width: 330px; height: 345px;}
+.container img{	width: 80%;	height: auto;}
+
+.indent-1 {float: left;}
+.indent-1 section {width: 50%; float: left;}
 /*- - - - - MEDIA QUERIES - - - - -*/
 
 /*Non-retinal browser screen*/
@@ -94,13 +85,13 @@ li {
 	and (max-width: 1200px)
 	and (-webkit-min-device-pixel-ratio: 1){
 	.spec-main{
-		width: 78%;
+		width: 100%;
 		background-color: lightyellow;
 		float: left;
 	}	
 
 	.spec-side{
-		width: 78%;
+		width: 100%;
 		background-color: aliceblue;
 		float: left;
 	}
@@ -115,13 +106,13 @@ li {
 	and (max-width: 700px)
 	and (-webkit-min-device-pixel-ratio: 1){
 	.spec-main{
-		width: 88%;
+		width: 50%;
 		background-color: lightgreen;
 		float: left;
 	}	
 
 	.spec-side{
-		width: 11%;
+		width: 50%;
 		background-color: lightyellow;
 		float: left;
 	}
