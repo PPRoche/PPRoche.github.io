@@ -1,4 +1,7 @@
-/*default css stylesheet*/
+/*css stylesheet*/
+
+/*- - - - DEFAULT ELEMENT RULES - - - -*/
+
 a:hover{
 	background-color: green;
 }
@@ -10,6 +13,9 @@ ul {
 li {
 	padding-bottom: 3px;
 }
+
+/*- - - - - CUSTOM RULES - - - - -*/
+
 /*BODY SECTION*/
 .b-color{
   background-color: lightgrey;
@@ -40,3 +46,32 @@ li {
 	line-height: 5px;
 	text-transform: capitalize;
 }
+
+/*- - - - - MEDIA QUERIES - - - - -*/
+
+/*Non-retinal browser screen*/
+@media screen 
+	and (min-width: 700px) 
+	and (max-width: 1200px)
+	and (-webkit-min-device-pixel-ratio: 1){
+	.b-color{
+		/*background:url("../responsive/software.png") 0 0px;*/
+		width: 100%;
+		background-color: lightyellow;
+	}	
+}
+
+/*For Portrait and Landscape iPhone 6, 6S, 7 and 8 */
+@media only screen
+	and (min-device-width: 375px)
+	and (max-device-width: 667px)
+	and (-webkit-min-device-pixel-ratio: 2){
+	.b-color{
+		/*background:url("../responsive/software.png") 0 0px;*/
+		width: 50%;
+		background-color: lightgreen;
+	}
+
+}
+
+
