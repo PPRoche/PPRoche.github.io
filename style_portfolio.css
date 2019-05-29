@@ -56,8 +56,7 @@ li {
 	padding-top: 1px;
 }
 
-.indent-1 {float: left;}
-.indent-1 section {width: 50%; float: left;}
+
 
 /*DATES AND LOCATION*/
 .date-loc{
@@ -76,6 +75,8 @@ li {
 .container{	width: 330px; height: 345px;}
 .container img{	width: 80%;	height: auto;}
 
+.indent-1 {float: left;}
+.indent-1 section {width: 50%; float: left;}
 
 /*- - - - - MEDIA QUERIES - - - - -*/
 
