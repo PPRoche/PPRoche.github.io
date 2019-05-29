@@ -55,6 +55,12 @@ li {
 	text-transform: capitalize;
 }
 
+.imgcaption{
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 14px;
+	padding: 6px;
+}
 /*- - - - - MEDIA QUERIES - - - - -*/
 
 /*Non-retinal browser screen*/
@@ -64,9 +70,13 @@ li {
 	and (-webkit-min-device-pixel-ratio: 1){
 	.spec-main{
 		width: 99%;
-		height: auto;
 		background-color: lightyellow;
 	}	
+
+	div#p-roche{
+		width: 100%;
+		height: auto;
+	}
 }
 
 @media screen 
@@ -78,7 +88,19 @@ li {
 		height: auto;
 		background-color: lightgreen;
 	}	
+
+	div#p-roche{
+		width: 50%;
+		height: auto;
+	}
 }
+
+
+
+
+
+
+
 
 /*For Portrait and Landscape iPhone 6, 6S, 7 and 8 */
 @media only screen
@@ -88,6 +110,11 @@ li {
 	.spec-main{
 		width: 50%;
 		background-color: lightgreen;
+	}
+
+
+	div#p-roche{
+		
 	}
 }
 
