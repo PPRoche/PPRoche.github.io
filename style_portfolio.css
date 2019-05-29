@@ -6,15 +6,15 @@ a:hover{
 }
 
 a{
-	color: #890101;
+	color: #890101; /*maroon*/
 }
 ul {
 	line-height: 20px;
 }
 
 li {
-	background-color: #9933cc;
-	color: #ffffff;
+	background-color: #c7aed4; /*lightpurple*/
+	color: #ffffff;	/*white*/
 	padding: 10px;
 }
 
@@ -96,11 +96,13 @@ li {
 	.spec-main{
 		width: 78%;
 		background-color: lightyellow;
+		float: left;
 	}	
 
 	.spec-side{
 		width: 78%;
-		background-color: lightgrey;
+		background-color: aliceblue;
+		float: left;
 	}
 	div#p-roche{
 		width: 80%;
@@ -115,11 +117,13 @@ li {
 	.spec-main{
 		width: 88%;
 		background-color: lightgreen;
+		float: left;
 	}	
 
 	.spec-side{
 		width: 11%;
-		background-color: lightgrey;
+		background-color: lightyellow;
+		float: left;
 	}
 
 	div#p-roche{
