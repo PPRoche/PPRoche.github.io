@@ -42,7 +42,6 @@ li {
 /*MAIN SECTION FOR BIO AND INDEX PAGE*/
 .spec-main{
 	background-color: aliceblue;
-	/*font-family: cursive;*/
 	width: 99%;
 	line-height: 25px;
 	padding-left: 10px;
@@ -65,6 +64,7 @@ li {
 	and (-webkit-min-device-pixel-ratio: 1){
 	.spec-main{
 		width: 99%;
+		height: auto;
 		background-color: lightyellow;
 	}	
 }
@@ -75,6 +75,7 @@ li {
 	and (-webkit-min-device-pixel-ratio: 1){
 	.spec-main{
 		width: 50%;
+		height: auto;
 		background-color: lightgreen;
 	}	
 }
