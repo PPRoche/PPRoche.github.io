@@ -92,6 +92,10 @@ li {
 	.spec-side{
 		background-color: aliceblue;
 	}
+	.indent-1 section{
+		width: 50%;
+		float: left;
+	}
 	div#p-roche{
 		width: 50%;
 		height: auto;
