@@ -41,22 +41,23 @@ li {
 /*MAIN SECTION FOR BIO AND INDEX PAGE*/
 .spec-main{
 	background-color: aliceblue;
-	width: 78%;
+	/*width: 80%;*/
 	line-height: 25px;
 	padding-left: 10px;
 	padding-top: 1px;
-	float: left;
 }
 
 /*SIDE SECTION FOR BIO AND INDEX PAGE*/
 .spec-side{
 	background-color: aliceblue;
-	width: 21%;
+	/*width: 19%;*/
 	line-height: 25px;
 	padding-left: 10px;
 	padding-top: 1px;
-	float: left;
 }
+
+.indent-1 {float: left;}
+.indent-1 section {width: 50%; float: left;}
 
 /*DATES AND LOCATION*/
 .date-loc{
@@ -75,8 +76,7 @@ li {
 .container{	width: 330px; height: 345px;}
 .container img{	width: 80%;	height: auto;}
 
-.indent-1 {float: left;}
-.indent-1 section {width: 50%; float: left;}
+
 /*- - - - - MEDIA QUERIES - - - - -*/
 
 /*Non-retinal browser screen*/
@@ -85,18 +85,14 @@ li {
 	and (max-width: 1200px)
 	and (-webkit-min-device-pixel-ratio: 1){
 	.spec-main{
-		width: 100%;
 		background-color: lightyellow;
-		float: left;
 	}	
 
 	.spec-side{
-		width: 100%;
 		background-color: aliceblue;
-		float: left;
 	}
 	div#p-roche{
-		width: 80%;
+		width: 50%;
 		height: auto;
 	}
 }
@@ -106,19 +102,17 @@ li {
 	and (max-width: 700px)
 	and (-webkit-min-device-pixel-ratio: 1){
 	.spec-main{
-		width: 50%;
 		background-color: lightgreen;
-		float: left;
+		width: 90%;
 	}	
 
 	.spec-side{
-		width: 50%;
 		background-color: lightyellow;
-		float: left;
+		width: 10%;
 	}
 
 	div#p-roche{
-		width: 50%;
+		width: 80%;
 		height: auto;
 	}
 }
@@ -134,7 +128,7 @@ li {
 	}
 
 	div#p-roche{
-		width: 50%;
+		width: 100%;
 		height: auto;
 	}
 }
