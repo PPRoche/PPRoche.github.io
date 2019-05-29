@@ -13,7 +13,9 @@ ul {
 }
 
 li {
-	padding-bottom: 3px;
+	background-color: #9933cc;
+	color: #ffffff;
+	padding: 10px;
 }
 
 /*- - - - - CUSTOM RULES - - - - -*/
@@ -45,7 +47,16 @@ li {
 /*MAIN SECTION FOR BIO AND INDEX PAGE*/
 .spec-main{
 	background-color: aliceblue;
-	width: 99%;
+	width: 78%;
+	line-height: 25px;
+	padding-left: 10px;
+	padding-top: 1px;
+}
+
+/*SIDE SECTION FOR BIO AND INDEX PAGE*/
+.spec-side{
+	background-color: aliceblue;
+	width: 21%;
 	line-height: 25px;
 	padding-left: 10px;
 	padding-top: 1px;
@@ -70,7 +81,7 @@ li {
 	height: 345px;
 }
 .container img{
-	width: 100%;
+	width: 80%;
 	height: auto;
 }
 /*- - - - - MEDIA QUERIES - - - - -*/
@@ -81,12 +92,16 @@ li {
 	and (max-width: 1200px)
 	and (-webkit-min-device-pixel-ratio: 1){
 	.spec-main{
-		width: 99%;
+		width: 78%;
 		background-color: lightyellow;
 	}	
 
+	.spec-side{
+		width: 78%;
+		background-color: lightgrey;
+	}
 	div#p-roche{
-		width: 100%;
+		width: 80%;
 		height: auto;
 	}
 }
@@ -96,8 +111,14 @@ li {
 	and (max-width: 700px)
 	and (-webkit-min-device-pixel-ratio: 1){
 	.spec-main{
+		width: 88%;
 		background-color: lightgreen;
 	}	
+
+	.spec-side{
+		width: 11%;
+		background-color: lightgrey;
+	}
 
 	div#p-roche{
 		width: 50%;
@@ -114,7 +135,6 @@ li {
 		width: 50%;
 		background-color: lightgreen;
 	}
-
 
 	div#p-roche{
 		width: 50%;
