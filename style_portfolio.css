@@ -1,7 +1,7 @@
 /*css stylesheet*/
 /*- - - - DEFAULT ELEMENT RULES - - - -*/
 
-ul {line-height: 20px; background-color: lightgrey;}
+ul {line-height: 10px; background-color: lightgrey;}
 a, li {color: #ffffff; padding: 10px;}
 /*- - - - - CUSTOM RULES - - - - -*/
 
@@ -60,14 +60,14 @@ a, li {color: #ffffff; padding: 10px;}
 .right{
 	background-color: lightyellow;
 	float: right;
-	width: 66%%;
+	width: 66%;
 	padding: 20px;
 	line-height: 25px;
 	border: 2px solid black;
 }
 
 .container{	width: 330px; height: 345px; border: 1px solid black; margin: auto;}
-.container img{	width: 80%;	height: auto; border: 1px solid black; margin-left: auto; margin-right: auto;}
+.container img{	width: 80%;	height: auto; border: 1px solid black;}
 
 /*- - - - - MEDIA QUERIES - - - - -*/
 
@@ -86,7 +86,7 @@ a, li {color: #ffffff; padding: 10px;}
 	and (max-width: 975px)
 	and (-webkit-min-device-pixel-ratio: 1){
 	.left, .right{
-		width: 99%;
+		width: 90%;
 		float: left;
 	}
 	div#p-roche{
