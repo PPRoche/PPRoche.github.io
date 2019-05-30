@@ -2,13 +2,14 @@
 /*- - - - DEFAULT ELEMENT RULES - - - -*/
 
 ul {line-height: 20px; background-color: lightgrey;}
-a, li {color: #ffffff; padding: 10px; font-family: sans-serif;}
+a, li {color: #ffffff; padding: 10px;}
 /*- - - - - CUSTOM RULES - - - - -*/
 
 /*BODY SECTION*/
-.b-color{
+.b-section{
   line-height: 40px;
   padding-bottom: 10px;
+  font-family: serif;
 }
 
 /*HEADER SECTION*/
@@ -29,7 +30,6 @@ a, li {color: #ffffff; padding: 10px; font-family: sans-serif;}
 	background-size: auto;
 	background-color: aliceblue;
 	width: 99%;
-	
 }
 
 /*DATES AND LOCATION*/
@@ -51,7 +51,7 @@ a, li {color: #ffffff; padding: 10px; font-family: sans-serif;}
 .left, .main{
 	background-color: aliceblue;
 	float: left;
-	width: 33.333333333333333333%;
+	width: 33%;
 	padding: 20px;
 	line-height: 25px;
 	border: 2px solid black;
@@ -60,14 +60,14 @@ a, li {color: #ffffff; padding: 10px; font-family: sans-serif;}
 .right{
 	background-color: lightyellow;
 	float: right;
-	width: 66.666666666666666666%%;
+	width: 66%%;
 	padding: 20px;
 	line-height: 25px;
 	border: 2px solid black;
 }
 
-.container{	width: 330px; height: 345px; border: 2px solid black; margin: auto;}
-.container img{	width: 80%;	height: auto; border: 2px solid black; margin: auto;}
+.container{	width: 330px; height: 345px; border: 1px solid black; margin: auto;}
+.container img{	width: 80%;	height: auto; border: 1px solid black; margin-left: auto; margin-right: auto;}
 
 /*- - - - - MEDIA QUERIES - - - - -*/
 
