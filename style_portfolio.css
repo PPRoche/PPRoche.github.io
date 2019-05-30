@@ -2,7 +2,7 @@
 /*- - - - DEFAULT ELEMENT RULES - - - -*/
 
 ul {line-height: 20px; background-color: lightgrey;}
-a, li {color: #ffffff; padding: 10px; font-family: Serif;}
+a, li {color: #ffffff; padding: 10px; font-family: sans-serif;}
 /*- - - - - CUSTOM RULES - - - - -*/
 
 /*BODY SECTION*/
@@ -25,7 +25,7 @@ a, li {color: #ffffff; padding: 10px; font-family: Serif;}
 /*MAIN BODY AND SIDE SECTION for RESUME*/
 .section-main{
 	border: 2px solid black;
-	padding: 25px;
+	padding: 10px;
 	background-size: auto;
 	background-color: aliceblue;
 	width: 99%;
@@ -45,6 +45,7 @@ a, li {color: #ffffff; padding: 10px; font-family: Serif;}
 	font-size: 14px;
 	padding: 6px;
 	border: 2px solid black;
+	margin: auto;
 }
 
 .left, .main{
@@ -65,8 +66,8 @@ a, li {color: #ffffff; padding: 10px; font-family: Serif;}
 	border: 2px solid black;
 }
 
-.container{	width: 330px; height: 345px; border: 2px solid black;}
-.container img{	width: 80%;	height: auto;}
+.container{	width: 330px; height: 345px; border: 2px solid black; margin: auto;}
+.container img{	width: 80%;	height: auto; border: 2px solid black; margin: auto;}
 
 /*- - - - - MEDIA QUERIES - - - - -*/
 
