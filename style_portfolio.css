@@ -1,7 +1,7 @@
 /*css stylesheet*/
 /*- - - - DEFAULT ELEMENT RULES - - - -*/
 
-ul {line-height: 10px; background-color: lightgrey;}
+ul {line-height: 30px; background-color: lightgrey;}
 a, li {color: #ffffff; padding: 10px;}
 /*- - - - - CUSTOM RULES - - - - -*/
 
@@ -51,7 +51,7 @@ a, li {color: #ffffff; padding: 10px;}
 .left, .main{
 	background-color: aliceblue;
 	float: left;
-	width: 33%;
+	width: 20%;
 	padding: 20px;
 	line-height: 25px;
 	border: 2px solid black;
@@ -60,13 +60,13 @@ a, li {color: #ffffff; padding: 10px;}
 .right{
 	background-color: lightyellow;
 	float: right;
-	width: 66%;
+	width: 60%;
 	padding: 20px;
 	line-height: 25px;
 	border: 2px solid black;
 }
 
-.container{	width: 330px; height: 345px; border: 1px solid black; margin: auto;}
+.container{	width: 330px; height: 345px; border: 1px solid black; margin: auto; text-align: center;}
 .container img{	width: 80%;	height: auto; border: 1px solid black;}
 
 /*- - - - - MEDIA QUERIES - - - - -*/
