@@ -99,17 +99,23 @@ li {
 	.spec-side{
 		background-color: aliceblue;
 	}
-	
 
-	div#side-section, div#core-section, div#p-roche{
+	.left{
+		width: 33.333333333333333333%;
+	}
+
+	.right{
+		width: 66.666666666666666666%%;
+	}
+	
+	div#p-roche{
 		width: 50%;
 		height: auto;
 	}
 }
 
 @media screen 
-	and (min-width: 300px) 
-	and (max-width: 700px)
+	and (max-width: 975px)
 	and (-webkit-min-device-pixel-ratio: 1){
 	.spec-main{
 		background-color: lightgreen;
@@ -119,6 +125,10 @@ li {
 		background-color: lightyellow;
 	}
 
+	.left, .right{
+		width: 100%;
+		float: left;
+	}
 	div#p-roche{
 		width: 80%;
 		height: auto;
