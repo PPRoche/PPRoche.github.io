@@ -1,33 +1,35 @@
 /*css stylesheet*/
 /*- - - - DEFAULT ELEMENT RULES - - - -*/
 
-ul {line-height: 20px; background-color: #86909a; /*darkgrey*/}
-li {color: #ffffff;	/*white*/padding: 10px;}
-
+ul {line-height: 20px; padding: 10px; background-color: lightgrey;}
+a, li {color: #ffffff; padding: 10px; font-family: 'Courier New', Courier, Serif;}
 /*- - - - - CUSTOM RULES - - - - -*/
 
 /*BODY SECTION*/
 .b-color{
-  background-color: lightgrey;
   line-height: 40px;
   padding-bottom: 10px;
 }
 
 /*HEADER SECTION*/
 .header{
+	border: 2px solid black;
+	padding: 25px;
+	background-size: auto;
 	text-align: center;
-	line-height: 8px;
-	background-color: #86909a; /*darkgrey*/
+	line-height: 40px;
+	background-color: lightgrey; 
+	
 }
 
-/*MAIN BODY AND SIDE SECTION*/
+/*MAIN BODY AND SIDE SECTION for RESUME*/
 .section-main{
+	border: 2px solid black;
+	padding: 25px;
+	background-size: auto;
 	background-color: aliceblue;
-	/*font-family: cursive;*/
 	width: 99%;
-	line-height: 25px;
-	padding-left: 10px;
-	padding-top: 1px;
+	
 }
 
 /*DATES AND LOCATION*/
@@ -45,7 +47,7 @@ li {color: #ffffff;	/*white*/padding: 10px;}
 }
 
 .left, .main{
-	background-color: lightblue;
+	background-color: aliceblue;
 	float: left;
 	width: 33.333333333333333333%;
 	padding-bottom: 20px;
@@ -55,7 +57,7 @@ li {color: #ffffff;	/*white*/padding: 10px;}
 }
 
 .right{
-	background-color: lightgreen;
+	background-color: lightyellow;
 	float: right;
 	width: 66.666666666666666666%%;
 	padding-bottom: 20px;
