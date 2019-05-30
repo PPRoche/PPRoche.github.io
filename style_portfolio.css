@@ -1,8 +1,8 @@
 /*css stylesheet*/
 /*- - - - DEFAULT ELEMENT RULES - - - -*/
 
-ul {line-height: 20px; padding: 10px; background-color: lightgrey;}
-a, li {color: #ffffff; padding: 10px; font-family: 'Courier New', Courier, Serif;}
+ul {line-height: 20px; background-color: lightgrey;}
+a, li {color: #ffffff; padding: 10px; font-family: Serif;}
 /*- - - - - CUSTOM RULES - - - - -*/
 
 /*BODY SECTION*/
@@ -14,10 +14,10 @@ a, li {color: #ffffff; padding: 10px; font-family: 'Courier New', Courier, Serif
 /*HEADER SECTION*/
 .header{
 	border: 2px solid black;
-	padding: 25px;
+	padding: 10px;
 	background-size: auto;
 	text-align: center;
-	line-height: 40px;
+	line-height: 20px;
 	background-color: lightgrey; 
 	
 }
@@ -44,29 +44,28 @@ a, li {color: #ffffff; padding: 10px; font-family: 'Courier New', Courier, Serif
 	margin-right: auto;
 	font-size: 14px;
 	padding: 6px;
+	border: 2px solid black;
 }
 
 .left, .main{
 	background-color: aliceblue;
 	float: left;
 	width: 33.333333333333333333%;
-	padding-bottom: 20px;
+	padding: 20px;
 	line-height: 25px;
-	padding-left: 10px;
-	padding-top: 1px;
+	border: 2px solid black;
 }
 
 .right{
 	background-color: lightyellow;
 	float: right;
 	width: 66.666666666666666666%%;
-	padding-bottom: 20px;
+	padding: 20px;
 	line-height: 25px;
-	padding-left: 10px;
-	padding-top: 1px;
+	border: 2px solid black;
 }
 
-.container{	width: 330px; height: 345px;}
+.container{	width: 330px; height: 345px; border: 2px solid black;}
 .container img{	width: 80%;	height: auto;}
 
 /*- - - - - MEDIA QUERIES - - - - -*/
@@ -86,7 +85,7 @@ a, li {color: #ffffff; padding: 10px; font-family: 'Courier New', Courier, Serif
 	and (max-width: 975px)
 	and (-webkit-min-device-pixel-ratio: 1){
 	.left, .right{
-		width: 100%;
+		width: 99%;
 		float: left;
 	}
 	div#p-roche{
