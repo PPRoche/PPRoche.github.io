@@ -1,11 +1,8 @@
 /*css stylesheet*/
 /*- - - - DEFAULT ELEMENT RULES - - - -*/
-ul {line-height: 20px;}
 
-li {
-	color: #ffffff;	/*white*/
-	padding: 10px;
-}
+ul {line-height: 20px; background-color: #86909a; /*darkgrey*/}
+li {color: #ffffff;	/*white*/padding: 10px;}
 
 /*- - - - - CUSTOM RULES - - - - -*/
 
@@ -20,8 +17,9 @@ li {
 .header{
 	text-align: center;
 	line-height: 8px;
-
+	background-color: #86909a; /*darkgrey*/
 }
+
 /*MAIN BODY AND SIDE SECTION*/
 .section-main{
 	background-color: aliceblue;
@@ -30,29 +28,7 @@ li {
 	line-height: 25px;
 	padding-left: 10px;
 	padding-top: 1px;
-
 }
-
-/*MAIN SECTION FOR BIO AND INDEX PAGE*/
-.spec-main{
-	background-color: aliceblue;
-	/*width: 50%;*/
-	line-height: 25px;
-	padding-left: 10px;
-	padding-top: 1px;
-}
-
-/*SIDE SECTION FOR BIO AND INDEX PAGE*/
-
-.spec-side{
-	background-color: aliceblue;
-	/*width: 50%;*/
-	line-height: 25px;
-	padding-left: 10px;
-	padding-top: 1px;
-}
-
-
 
 /*DATES AND LOCATION*/
 .date-loc{
@@ -68,11 +44,14 @@ li {
 	padding: 6px;
 }
 
-.left{
+.left, .main{
 	background-color: lightblue;
 	float: left;
 	width: 33.333333333333333333%;
 	padding-bottom: 20px;
+	line-height: 25px;
+	padding-left: 10px;
+	padding-top: 1px;
 }
 
 .right{
@@ -80,6 +59,9 @@ li {
 	float: right;
 	width: 66.666666666666666666%%;
 	padding-bottom: 20px;
+	line-height: 25px;
+	padding-left: 10px;
+	padding-top: 1px;
 }
 
 .container{	width: 330px; height: 345px;}
@@ -92,22 +74,6 @@ li {
 	and (min-width: 700px) 
 	and (max-width: 1200px)
 	and (-webkit-min-device-pixel-ratio: 1){
-	.spec-main{
-		background-color: lightyellow;
-	}	
-
-	.spec-side{
-		background-color: aliceblue;
-	}
-
-	.left{
-		width: 33.333333333333333333%;
-	}
-
-	.right{
-		width: 66.666666666666666666%%;
-	}
-	
 	div#p-roche{
 		width: 50%;
 		height: auto;
@@ -117,14 +83,6 @@ li {
 @media screen 
 	and (max-width: 975px)
 	and (-webkit-min-device-pixel-ratio: 1){
-	.spec-main{
-		background-color: lightgreen;
-	}	
-
-	.spec-side{
-		background-color: lightyellow;
-	}
-
 	.left, .right{
 		width: 100%;
 		float: left;
@@ -135,16 +93,11 @@ li {
 	}
 }
 
-/*For Portrait and Landscape iPhone 6, 6S, 7 and 8 */
+/*For Portrait and Landscape iPhone 6, 6S, 7 and 8+ */
 @media only screen
 	and (min-device-width: 375px)
 	and (max-device-width: 667px)
 	and (-webkit-min-device-pixel-ratio: 2){
-	.spec-main{
-		width: 50%;
-		background-color: lightgreen;
-	}
-
 	div#p-roche{
 		width: 100%;
 		height: auto;
