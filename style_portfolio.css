@@ -75,8 +75,11 @@ a, li {color: #ffffff; padding: 5px; line-height: 20px;}
 	text-align: center;
 	background-color: aliceblue;
 }
-.container img{	width: 80%;	height: auto; border: 1.5px solid black; padding: 10px;}
+.container img{	width: 80%;	height: auto; border: 2px solid black;}
 
+.center{
+	text-align: center;
+}
 /*- - - - - MEDIA QUERIES - - - - -*/
 
 /*Non-retinal browser screen*/
